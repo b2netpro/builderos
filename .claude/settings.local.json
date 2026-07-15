@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(SCRATCH=\"/c/Users/brbur/AppData/Local/Temp/claude/C--Users-brbur-Projects-builderos/48fe1cdf-dfff-49a3-bcd3-2aef8fd716b0/scratchpad\" *)",
+      "Bash(git -C /c/Users/brbur/AppData/Local/Temp/claude/C--Users-brbur-Projects-builderos/48fe1cdf-dfff-49a3-bcd3-2aef8fd716b0/scratchpad/builderos-repo log --oneline --all -20)",
+      "Bash(find /c/Users/brbur/AppData/Local/Temp/claude/C--Users-brbur-Projects-builderos/48fe1cdf-dfff-49a3-bcd3-2aef8fd716b0/scratchpad/builderos-repo -maxdepth 1 -iname readme*)",
+      "Bash(find /c/Users/brbur/AppData/Local/Temp/claude/C--Users-brbur-Projects-builderos/48fe1cdf-dfff-49a3-bcd3-2aef8fd716b0/scratchpad/builderos-repo -maxdepth 1 -iname license*)",
+      "Bash(git -C /c/Users/brbur/AppData/Local/Temp/claude/C--Users-brbur-Projects-builderos/48fe1cdf-dfff-49a3-bcd3-2aef8fd716b0/scratchpad/builderos-repo show --stat HEAD)",
+      "Bash(grep -i \"builderos$\")"
+    ]
+  }
+}
