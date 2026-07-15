@@ -6,12 +6,6 @@ It's a single-user, local-first tool: no server, no database — just a small Go
 
 > Source: [github.com/b2netpro/builderos](https://github.com/b2netpro/builderos)
 
-## ⚠️ Security notice
-
-This repository contains a **hardcoded, apparently-live OpenAI API key** committed in plaintext at `internal/timebox/keybox`. It is not referenced anywhere by the Go code (the app reads `OPENAI_API_KEY` from the environment instead), so it looks like a secret that was accidentally dropped into the repo rather than something the app depends on.
-
-**Recommended action:** revoke/rotate that key in the OpenAI dashboard immediately, then remove the file from the working tree *and* purge it from git history (e.g. `git filter-repo` or BFG Repo-Cleaner) before this repo is shared or made public, since git history retains it even after a normal delete+commit.
-
 ## What it does
 
 BuilderOS ties together four workflows that solo builders usually track in separate apps:
